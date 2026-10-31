@@ -9,4 +9,5 @@ elseif game.PlaceId == 123372129389333 then -- Kanom Tokyo Arena World
     loadstring(game:HttpGet("https://raw.githubusercontent.com/arsyny1x/Kanom-Tokyo-V2/refs/heads/main/arena-world.lua"))()
 elseif game.PlaceId == 91350038154849 then -- Durian Garden
     loadstring(game:HttpGet("https://raw.githubusercontent.com/arsyny1x/Durian-Garden/refs/heads/main/main.lua"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/7eUQ22xq"))()
 end
