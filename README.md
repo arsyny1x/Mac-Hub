@@ -1,36 +1,69 @@
+<div align="center">
+
 # Mac Hub
 
-Welcome to **Mac Hub** — a community hub for Roblox players looking for free scripts, useful tools, and a clean, easy-to-use experience.
+**One hub · three experiences · multiple routes**
 
-Mac Hub is built for players who want to explore different Roblox experiences with convenient features and a modern interface. Our goal is to provide accessible resources for the community while keeping everything simple, organized, and regularly updated.
+A compact Lua loader maintained by [arsyny1x](https://github.com/arsyny1x).
 
-## Features
+[![MIT License](https://img.shields.io/badge/license-MIT-2ea043?style=for-the-badge)](./LICENSE)
+[![Discord](https://img.shields.io/badge/community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zSFhz9VfHu)
 
-### Free Scripts
-Mac Hub provides free scripts for supported Roblox experiences. Each script is made to offer helpful in-game features and a smoother overall experience.
+[Overview](#overview) · [Supported experiences](#supported-experiences) · [Project files](#project-files) · [Open-source guidelines](#open-source-guidelines) · [Community](#community)
 
-### Regular Updates
-We continue improving Mac Hub through updates, bug fixes, feature changes, and support for new experiences whenever possible.
-
-### Community Support
-Join our Discord community to receive announcements, get help, share feedback, report issues, and connect with other Mac Hub users.
-
-## Join the Community
-
-To join the Mac Hub community and stay updated, join our Discord server:
-
-[Join Mac Hub on Discord](https://discord.gg/zSFhz9VfHu)
-
-## Support
-
-If you experience an issue, have a suggestion, or need assistance, please join our Discord server and contact a member of the team.
-
-## Disclaimer
-
-Mac Hub is an independent community project and is not affiliated with, endorsed by, or sponsored by Roblox Corporation or any Roblox game developer.
-
-Thank you for using Mac Hub.
+</div>
 
 ---
 
-Made with ❤️ by [arsyny1x](https://github.com/arsyny1x)
+## Overview
+
+Mac Hub checks the current Roblox experience and selects its matching route. The route map is kept in one place, making the supported destinations easy to review. The code each route points to may be hosted separately from this repository.
+
+## Supported experiences
+
+| Experience | Available routes |
+| --- | --- |
+| **Kanom Tokyo** | `Main` · optional `Kaitun`<br>`Boss World`<br>`Arena World` |
+| **Durian Garden** | `Main` |
+| **Mahanakhon Racing** | `Main` |
+
+*Boss World and Arena World are routes for Kanom Tokyo, not separate games.*
+
+## Project files
+
+| File | Description |
+| --- | --- |
+| [`loader.lua`](./loader.lua) | Experience and route mappings |
+| [`LICENSE`](./LICENSE) | MIT License for this repository |
+
+## Remote source notice
+
+> [!WARNING]
+> Some routes fetch and execute Lua code hosted outside this repository. Those remote files can change independently, and their behavior is not audited or guaranteed here. Review the source and any updates before choosing to use or redistribute it.
+
+## Open-source guidelines
+
+Mac Hub is distributed under the [MIT License](./LICENSE). Please keep these community guidelines in mind when sharing a fork:
+
+- **No skidding** — Do not claim someone else's work as your own.
+- **No reskin-only forks** — A new name, logo, colors, or UI alone is not meaningful original work.
+- **Keep attribution** — Preserve the original copyright and license notices when redistributing.
+- **Show what's changed** — Describe meaningful changes and distinguish your fork from the original.
+
+These are community guidelines, not extra license terms. The MIT License governs use, modification, and redistribution.
+
+## Community
+
+Questions, feedback, or announcements: [join the Mac Hub Discord](https://discord.gg/zSFhz9VfHu).
+
+## Disclaimer
+
+Mac Hub is an independent community project. It is not affiliated with, endorsed by, or sponsored by Roblox Corporation or any Roblox game developer.
+
+---
+
+<div align="center">
+
+Made by [arsyny1x](https://github.com/arsyny1x)
+
+</div>
