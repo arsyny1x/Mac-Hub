@@ -35,6 +35,10 @@ elseif PlaceId == 91350038154849 then -- Durian Garden
     ))()
 
 elseif PlaceId == 104549080643413 then -- MAHANAKHON RACING
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+    repeat task.wait() until Players and LocalPlayer
+    LocalPlayer:Kick("ปิดให้ใช้ชั่วคราว")
     -- loadstring(game:HttpGet(
     --     "https://raw.githubusercontent.com/arsyny1x/MAHANAKHON-RACING/refs/heads/main/main.obf.lua"
     -- ))()
